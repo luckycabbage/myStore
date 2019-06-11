@@ -1,0 +1,75 @@
+css
+	类，标签，id
+	优先级：
+		id > 类 > 标签 > 浏览器默认样式
+	属性选择器
+		E[attr]:带有attr属性的E选择器
+		E[attr='val']:带有attr属性,并且值为val
+		E[attr^='val']:开始
+		E[attr$='val']:结束
+		E[attr*='val']:任何位置
+	兄弟：~
+	相邻：+
+	后代： 
+	子代： >
+	交集：EF：E必须为标签，F必须为id或者是类
+	并集：，
+	伪类：
+		:hover
+		:link
+		:active
+		:visited
+		:before
+		:after
+		:focus:光标获取
+		:first-child
+		:last-child
+		:nth-child(n)
+		:nth-last-child(n)
+		:not
+		:empty
+		:first-line
+		:fist-letter
+	css属性：
+		display:inline,block,inline-block,table,flex
+		块级：
+			宽占父容器100%，可以设置宽高
+		行内：
+			内容大小，不可以设置宽高
+		内联块级：
+			内容大小，可以设置宽高
+		float：left，right：脱离文档流
+			clear，overflow
+		position：
+			绝对：
+				相对与父容器（有定位属性的父节点，浏览器），脱离文档流
+			相对：
+				相对自己本来的位置，不脱离文档流
+			固定：
+				脱离，滚动条滚动不影响显示
+		z-index：
+			值越大，优先级越高。必须和定位一起使用。同级
+		background-position
+		padding:1px 2px 3px 4px
+		margin:
+		overflow:hidden
+		clear
+		
+		
+css3：
+	动画：animation
+		动画的时间，速度，次数，延迟，循环
+	阴影：
+		文本：text-shadow: 长度 长度 模糊 颜色
+		盒子：box-shadow
+	旋转：transforn:
+	@media:适配
+	圆角：radius
+	过渡：transition?
+	渐变: gradient
+	字体: 
+	多列
+	盒模型
+	
+		
+		
