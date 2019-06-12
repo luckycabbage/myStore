@@ -1,0 +1,39 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.top-menu{
+    display: flex;
+}
+.head-portrait{
+    width:3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: #a6d3ff;
+    margin:0.8rem 1rem;
+    overflow: hidden;
+}
+.search{
+    width:45%;
+    height: 2.2rem;
+    position: relative;
+    margin-top: 1.2rem;
+    background: #a6d3ff;
+    border-radius: 1rem;
+}
+.search span{
+    display: inline-block;
+    height: 2.2rem;
+    text-align: center;
+    width: 25%;
+    background: url("");
+    background-size: 2.74rem 2.28rem;
+    background-position: -1.05rem -2.06rem;
+}
+
+.search input{
+    border: none;
+    position: absolute;
+    line-height: 2.2rem;
+    width: 75%;
+    background: none;
+    outline: none;
+}
