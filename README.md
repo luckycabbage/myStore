@@ -8,6 +8,6 @@
    
 组员：郭育林  git: himesamanonete
   
-组员：顾昕月  git：guxinyue981206
+组员：顾昕月  git: guxinyue981206
   
-组员：张汝琪  git：wohuidaxiaozhi
+组员：张汝琪  git: wohuidaxiaozhi
