@@ -4,11 +4,11 @@
     display: flex;
 }
 .head-portrait{
-    width:3rem;
-    height: 3rem;
+    width:2.2rem;
+    height: 2.2rem;
     border-radius: 50%;
     background: #a6d3ff;
-    margin:0.8rem 1rem;
+    margin:1.2rem 1rem;
     overflow: hidden;
 }
 .search{
@@ -24,7 +24,7 @@
     height: 2.2rem;
     text-align: center;
     width: 25%;
-    background: url("");
+    background: url("/images/ui_3@2x.png");
     background-size: 2.74rem 2.28rem;
     background-position: -1.05rem -2.06rem;
 }
@@ -36,4 +36,15 @@
     width: 75%;
     background: none;
     outline: none;
+}
+.nav-right{
+    width: 35%;
+}
+.nav-right a{
+    display: inline-block;
+    height: 2.2rem;
+    width: 3rem;
+    background: #46c1ff;
+    margin-left:0.5rem;
+    margin-top: 1.1rem;
 }
