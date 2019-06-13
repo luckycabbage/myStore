@@ -1,0 +1,125 @@
+
+.Subscribe{
+    margin-top: 0.5rem;
+    width: 100%;
+    position: relative;
+    border: #efefef;
+}
+.Subscribe-top{
+    font-size: 1rem;
+    width: 100%;
+    height: 20%;
+}
+.top-left{
+    margin-left: 0.4rem;
+    float: left;
+}
+.Subscribe-top h4{
+    margin: 0 0;
+    text-align: left;
+}
+.top-left p{
+    color: #bfc2c5;
+    font-size: 0.2rem;
+
+}
+.top-right{
+    float: right;
+    border: 1px solid  #ff81a7;;
+    border-radius: 0.2rem;
+    padding: 0.1rem 0.3rem;
+    margin: 0.3rem 0.5rem;
+    font-size: 0.2rem;
+    color: #ff81a7;
+}
+.clear{
+    clear: both;
+}
+.Subscribe-content {
+    display: flex;
+    width: 100%;
+    height: 3.5rem;
+}
+.banner-box{
+    position: relative;
+    width: 45%;
+    margin: 0 0.2rem;
+    border-radius: 0.1rem;
+
+}
+.one .banner-box:nth-child(1){
+    background: url("../img/apex1.webp")no-repeat;
+    background-size: 100% 100%;
+}
+.one .banner-box:nth-child(2){
+    background: url("../img/apex2.webp")no-repeat;
+    background-size: 100% 100%;
+}
+
+.two .banner-box:nth-child(1){
+    background: url("../img/cat2.jpeg")no-repeat;
+    background-size: 100% 100%;
+}
+.two .banner-box:nth-child(2){
+    background: url("../img/cat1.jpeg")no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner-box a {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+ .banner-title{
+     display: block;
+     font-size: 0.4rem;
+
+}
+.sp1,.sp2{
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    color: white;
+}
+.sp1{
+    left: 0.1rem;
+}
+.sp2{
+    right: 0.1rem;
+}
+.line{
+    width: 100%;
+    margin-top: 1.2rem;
+    border-bottom: 1px solid #efefef;
+}
+.tips{
+    margin-top: 2rem;
+    text-align: center;
+    color: #ff81a7;
+}
+/*频道部分*/
+.channel-box{
+    margin-bottom: 0.13rem;
+}
+.channel-list{
+    width: 100%;
+}
+.channel-box li{
+    margin-top: 0.5rem;
+    float: left;
+    display: inline-block;
+    width: 25%;
+}
+.channel-box li a{
+    display: block;
+    padding: 0.1rem 0;
+    text-align: center;
+    color: black;
+}
+.channel-logo{
+    display: block;
+    margin: 0 auto 0.07rem;
+    background-repeat: no-repeat;
+    position: relative;
+}
