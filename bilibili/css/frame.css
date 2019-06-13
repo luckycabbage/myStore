@@ -1,27 +1,10 @@
-body {
-    margin: 0;
-    -webkit-overflow-scrolling: touch;
-}
-ul, ol {
-    list-style: none outside none;
-}
-ul, ol, li, dl, dd {
-    margin: 0;
-    padding: 0;
+html{
+    width: 100%;
+    height: auto;
 }
 
-header {
-    overflow: hidden;
-    width: 100%;
-    height: 4.3333rem;
-}
-footer {
-    overflow: hidden;
-    width: 100%;
-    height: 1.4333rem;
-}
-
-.viewport {
+/*viewport*/
+.viewport{
     width: 400%;
     height: 100%;
     display: -webkit-box;
@@ -33,38 +16,41 @@ footer {
     backface-visibility: hidden;
     position: relative;
 }
-.pageview {
+.pageview{
     flex: 0 0 25%;
     overflow: hidden;
 }
-.pageview h4 {
+.pageview h4{
+    margin-top: 58%;
     text-align: center;
     font-size: 20px;
 }
 
-
-.top-menu {
-	position: relative;
-	z-index: 1000;
-	background: #fd74a0;
-	font-size: 13px;
-    width: 100%;
-    height: 4.3333rem;
-    line-height: 4.3333rem;
+[data-dpr="2"] .pageview h4{
+    font-size: 40px;
 }
-.bottom-menu {
-	position: fixed;
-	z-index: 1000;
-	background: #ffffff;
-	font-size: 13px;
+[data-dpr="3"] .pageview h4{
+    font-size: 60px;
+}
+header{
+    overflow: hidden;
+    width: 100%;
+    height: 1.3333rem;
+}
+footer{
+    overflow: hidden;
+    width: 100%;
+    height: 1.4333rem;
+}
+.bottom-menu{
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 4.4333rem;
-	border-top: #C8C7CC 0.003rem solid;
+    height: 1.4333rem;
+	background: white;
+	border-top: #C0C0C0 0.01rem solid;
 }
-
-.bottom-menu ul {
+.bottom-menu ul{
     width: 100%;
     height: 100%;
     display: -webkit-box;
@@ -73,20 +59,74 @@ footer {
     display: -webkit-flex;
     display: flex;
 }
-
 .bottom-menu ul li {
-    color: #000000;
+    color: black;
     text-align: center;
     flex: 0 0 25%;
 }
-
-.bottom-menu ul li div:first-child {
+.bottom-menu ul li i{
+    margin-top: 0.2rem;
+    font-size: 25px;
+}
+[data-dpr="2"] .bottom-menu ul li i{
+    font-size: 50px;
+}
+[data-dpr="3"] .bottom-menu ul li i{
+    font-size: 75px;
+}
+.bottom-menu ul li div:first-child{
     width: 100%;
     height: 60%;
+
 }
-.bottom-menu ul li div:last-child {
+.bottom-menu ul li div:last-child{
     width: 100%;
     height: 40%;
     line-height: normal;
     font-size: 12px;
+}
+[data-dpr="2"] .bottom-menu ul li div:last-child{
+    font-size: 24px;
+}
+[data-dpr="3"] .bottom-menu ul li div:last-child{
+    font-size: 36px;
+}
+
+/*顶部框*/
+.top-menu,.bottom-menu {
+    position: fixed;
+    z-index: 1000;
+    font-size: 13px;
+}
+.top-menu{
+    width: 25%;
+    height: 1.3333rem;
+    line-height: 1.3333rem;
+	background: #fd74a0;
+
+}
+
+
+/*container*/
+.container {
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    transition: top  0.2s;
+    -webkit-transition: top  0.2s;
+}
+.container::before{
+    display: block;
+    position: absolute;
+    top: -200px;
+    background: #00AEE8;
+    height: 200px;
+    width: 100%;
+    content: '';
+}
+
+/* 选中后变化 */
+.active {
+    background-color: rgba(0,0,0,0.3);
 }
