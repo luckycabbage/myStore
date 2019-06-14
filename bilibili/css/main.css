@@ -8,7 +8,8 @@
     height: 1rem;
     margin:0.1rem 0.1rem;
     border-radius: 50%;
-    background: #a6d3ff;
+    background: url("../img/head.jpg")no-repeat;
+    background-size: 100% 100%;
     overflow: hidden;
 }
 .search{
@@ -16,7 +17,7 @@
     width:45%;
     margin:0.3rem 0.5rem;
     height: 0.8rem;
-    background: #a6d3ff;
+    background: rgba(0,0,0,.2);
     border-radius: 1rem;
 }
 .search a{
@@ -32,6 +33,7 @@
     position: absolute;
     top: calc(50% - 6px);
     text-align: center;
+    color: white;
 }
 
 .search input{
@@ -44,4 +46,11 @@
 }
 .nav-right{
     width: 35%;
+}
+.nav-right span{
+    color: white;
+    margin-left: 0.5rem;
+}
+.nav-right span i{
+    font-size: 0.5rem;
 }

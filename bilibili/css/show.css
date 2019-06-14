@@ -1,4 +1,54 @@
+/*频道页面的头部*/
+.top-title{
+    margin: 0 auto;
+    font-size: 0.555rem;
+    color: white;
 
+}
+.function{
+    float: right;
+}
+.function span {
+    display: inline-block;
+    color: white;
+   margin-right: 0.5rem;
+}
+.function span i{
+   font-size: 0.5rem;
+}
+/*导航部分---------*/
+#mainMenuBar {
+    width:100%;
+    z-index:100;
+    border-bottom:1px solid #efefef;
+    font-size: 0.4rem;
+}
+#mainMenuBar ul {
+    margin:0 auto;
+    position:relative;
+    padding:10px;
+}
+#mainMenuBar li {
+    width: 19%;
+    display:inline-block;
+    text-align: center;
+}
+#mainMenuBar li a{
+    color: #a4a4a4;
+}
+.stick {
+    position:fixed;
+    top:0;
+
+}
+#mainMenuBar li:nth-child(1) {
+    border-bottom: 3px solid #ff81a7;
+
+}
+#mainMenuBar li:nth-child(1) a{
+    color: #ff81a7;
+    font-size: 0.5rem;
+}
 .Subscribe{
     margin-top: 0.5rem;
     width: 100%;
