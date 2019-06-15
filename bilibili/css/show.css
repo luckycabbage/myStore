@@ -1,3 +1,102 @@
+
+#pop{
+    position: absolute;
+    left: -800px;
+    top: 0;
+    width:19.5%;
+    height:100%;
+    z-index: 9999;
+    background: #ff81a7;
+}
+#btn{
+    position: absolute;
+    width: 1rem;
+    height:1rem;
+    background: #ff81a7;
+    color: #efefef;
+    top: 0;
+    right: 0;
+    text-align: center;
+}
+#btn i{
+    font-size: 0.6rem;
+    margin-top: 0.2rem;
+
+}
+.pop-top{
+   width: 100%;
+    height: 15%;
+    background: none;
+
+}
+
+.big-portrait
+{   width:1.5rem;
+    height: 1.5rem;
+    margin: 0.6rem 0.6rem;
+    border-radius: 50%;
+    background: url("../img/head.jpg")no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.pop-top2 span{
+    display: inline-block;
+    border:1px solid white;
+    border-radius: 0.1rem;
+    padding: 0 0.1rem;
+    margin-left: 0.2rem;
+}
+#userID{
+    font-size: 0.5rem;
+    color: white;
+    margin-left: 0.4rem;
+}
+.grade{
+    color: white;
+}
+.privilege{
+    background: rgba(255,255,255,.5);
+    color: #ff81a7;
+}
+.pop-top2 p{
+    color: whitesmoke;
+    margin: 0.2rem 0.4rem;
+
+}
+.pop-nav{
+    width: 100%;
+    height: 7%;
+    background:ghostwhite ;
+    border-bottom:1px solid #CCCCCC;
+}
+.pop-nav ul{
+    position: relative;
+    height: 100%;
+
+}
+.pop-nav ul li{
+    display: inline-block;
+    width: 32%;
+    height: 100%;
+    padding-top: 0.3rem;
+    text-align: center;
+    font-size: 0.4rem;
+}
+.pop-con{
+    background: ghostwhite;
+    height: 78%;
+    font-size: 0.4rem;
+    font-family: sans-serif;
+}
+.pop-con ul li:nth-child(5),
+.pop-con ul li:nth-child(8){
+    border-bottom: 1px solid #efefef;
+}
+.pop-con ul li{
+    padding: 0.4rem 1rem;
+}
+
 /*频道页面的头部*/
 .top-title{
     margin: 0 auto;

@@ -18,13 +18,14 @@
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <link rel="stylesheet" href="css/show.css" type="text/css">
     <script src="js/jquery-3.4.1.min.js" ></script>
+    <script src="js/ce.js"></script>
 </head>
 <body>
 <div id="viewport" class="viewport">
     <div  class="pageview">
         <header>
             <div class="top-menu">
-                <div class="head-portrait"></div>
+                <div class="head-portrait" id="portrait"></div>
                 <div class="search">
                     <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                     <input type="text" name="search" placeholder="搜索">
@@ -38,6 +39,44 @@
             </div>
         </header>
         <div class="container">
+            <!--点头像出来的侧边栏-->
+            <div id="pop">
+                <div class="pop-top">
+                    <div id="btn"><i class="fa fa-times" aria-hidden="true"></i></div>
+                    <div class="pop-top1">
+                        <div class="big-portrait"></div>
+                    </div>
+                    <div class="pop-top2">
+                        <div><a id="userID">取名字真难</a>
+                            <span class="grade">LV5</span>
+                            <span class="privilege">年度大会员</span></div>
+                            <p>B币:&nbsp;5.0  &nbsp;&nbsp;  硬币:&nbsp;200.0</p>
+                    </div>
+                </div>
+
+                <div class="pop-nav">
+                    <ul>
+                        <li>32<p>动态</p></li>
+                        <li>105<p>关注</p></li>
+                        <li>999<p>粉丝</p></li>
+                    </ul>
+                </div>
+                <div class="pop-con">
+                    <ul>
+                        <li>首页</li>
+                        <li>历史记录</li>
+                        <li>离线缓存</li>
+                        <li>我的收藏</li>
+                        <li>稍后再看</li>
+                        <li>投稿</li>
+                        <li>创作中心</li>
+                        <li>热门活动</li>
+                        <li>直播中心</li>
+                        <li>我的大会员</li>
+                    </ul>
+                </div>
+            </div>
+
 			<!-- 把个人写的页面放这里 -->
 		</div>
 		<h4>页面-1</h4>
@@ -287,5 +326,6 @@
 <script src="js/showArea.js"></script>
 <script src="js/sliderViewport.js"></script>
 <script src="js/fixnav.js" type="text/javascript"></script>
+<script src="js/ce.js"></script>
 </body>
 </html>
